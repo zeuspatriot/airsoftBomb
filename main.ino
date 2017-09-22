@@ -10,6 +10,9 @@ void setup(){
     pinMode(greenLED, OUTPUT);
     pinMode(redLED, OUTPUT);
 
+    digitalWrite(greenLED, LOW);
+    digitalWrite(redLED, LOW);
+
     bomb->menu->resetState();
     bomb->menu->printInitialSetting();
 }
