@@ -150,7 +150,7 @@ void BombMenu::reactToFailure(){
   lcd->clear();
   lcd->printFirstLine("WRONG");
   lcd->printSecondLine("CODE!");
-
+  code = "";
   delay(1000);
 
   lcd->clear();
